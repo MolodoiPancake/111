@@ -1,0 +1,118 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'spot mono', sans-serif;
+    ;
+}
+.info {
+    background-image: url('image/pexels-francesco-ungaro-96938.jpg');
+    background-size: cover;                  /* растянуть на весь экран */
+    background-position: center;             /* центрировать */
+    background-repeat: no-repeat;            /* не повторять */
+    height: 100vh;                           /* высота — весь экран */
+}
+
+.text {
+    color: rgb(47, 46, 46);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 30px;
+}
+
+.content {
+    display: flex;
+    padding: 10px 100px 30px 100px;
+    background-color: rgb(255, 219, 225);
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 22px;
+}
+
+.list {
+  
+    display: flex;
+    padding: 10px 100px 20px 100px;
+    background-color: rgb(255, 219, 225);
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 22px;
+}
+.cats {
+    display: flex;
+    margin-top: 30px   ;
+    display: grid;
+    grid-template-columns: repeat(2, 650px);
+    justify-content: center;
+    gap: 30px;
+    align-items: start;
+    
+}
+
+.cat1_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+
+.cat2_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+
+.cat3_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+
+.cat4_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+.cat5_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+.cat6_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    padding: 0 20px 20px 20px;
+}
+
+.conclusion {
+    display: flex;
+    padding: 10px 100px 30px 100px;
+    background-color: rgb(255, 219, 225);
+    margin-top: 30px;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
